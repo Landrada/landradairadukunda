@@ -1,0 +1,19 @@
+{
+  "name": "electricity_biller",
+  "version": "1.0.0",
+  "description": "Electricity biller",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "landrada",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15",
+    "save-dev": "^0.0.1-security"
+  }
+}
