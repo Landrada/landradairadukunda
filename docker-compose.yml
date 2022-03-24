@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  backend:
+    build: 
+      context: electricity_biller
+      dockerfile: Dockerfile
+    ports:
+      - '6000:6000'
+  frontend:
+    build: 
+      context: elecat-frontend
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    

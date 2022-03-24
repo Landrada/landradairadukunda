@@ -16,7 +16,7 @@ app.get('/', (req,res) => {
 
 app.use('/api/tokens',tokenController)
 
-const port=process.env.PORT || 3000;
+const port=process.env.PORT || 6000;
 app.listen(port,
     console.log(`Listening on port succesfully ${port}`)
 );
